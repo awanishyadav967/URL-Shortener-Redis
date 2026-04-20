@@ -4,7 +4,11 @@ A full-stack URL shortening service built with Node.js, Express, PostgreSQL, and
 Users authenticate via Google OAuth and can shorten URLs, track click counts, and benefit from Redis-powered caching and rate limiting.
 
 ---
+## Live Demo
 
+https://url-shortener-redis.vercel.app
+
+---
 ## Screenshots
 
 ### Login Page
