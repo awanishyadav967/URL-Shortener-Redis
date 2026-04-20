@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:4000";
+const API = "https://url-shortener-redis.onrender.com";
 
 function App() {
   const [user, setUser] = useState(null);
