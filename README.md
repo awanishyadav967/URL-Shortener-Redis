@@ -8,13 +8,13 @@ Users authenticate via Google OAuth and can shorten URLs, track click counts, an
 ## Screenshots
 
 ### Login Page
-![Login](./screenShots/login.png)
+![Login](./ScreenShots/login.png)
 
 ### Dashboard
-![Dashboard](./screenShots/dashboard.png)
+![Dashboard](./ScreenShots/dashboard.png)
 
 ### Shortened URL
-![URL](./screenShots/url.png)
+![URL](./ScreenShots/url.png)
 
 ---
 
