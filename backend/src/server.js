@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://your-vercel-app.vercel.app",
+    origin: "https://url-shortener-redis.vercel.app",
     credentials: true,
     exposedHeaders: [
       "X-RateLimit-Limit",
@@ -32,6 +32,12 @@ app.use(
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
+    cookie: {
+      secure: true,
+      sameSite: "none",
+      httpOnly: true,
+    }
+
   })
 );
 
