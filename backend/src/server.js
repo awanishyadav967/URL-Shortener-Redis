@@ -140,7 +140,7 @@ app.get(
   "/auth/google/callback",
   passport.authenticate("google", { failureRedirect: "/" }),
   (req, res) => {
-    res.redirect("http://localhost:5173");
+    res.redirect("https://url-shortener-redis.vercel.app");
   }
 );
 
