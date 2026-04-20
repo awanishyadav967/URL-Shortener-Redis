@@ -72,7 +72,7 @@ app.post("/api/shorten", rateLimit, async (req, res) => {
   });
 
   res.json({
-    short: `http://localhost:4000/${short}`,
+    short: `https://url-shortener-redis.onrender.com/${short}`,
     original: url.original,
     clicks: url.clicks,
     createdAt: url.createdAt,
